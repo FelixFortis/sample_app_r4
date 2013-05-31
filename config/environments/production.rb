@@ -4,6 +4,9 @@ SampleAppR4::Application.configure do
   # Code is not reloaded between requests.
   config.cache_classes = true
 
+  # Allows Heroku deployment
+  config.serve_static_assets = true
+
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both thread web servers
   # and those relying on copy on write to perform better.
