@@ -35,7 +35,7 @@ group :test do
   # Uncomment these lines on Windows.
   gem 'rb-fchange', '0.0.6'
   gem 'rb-notifu', '0.0.4'
-  gem 'win32console', '1.3.2'
+  # gem 'win32console', '1.3.2'
 end
 
 gem 'sass-rails', '4.0.0.rc1'
